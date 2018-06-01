@@ -1,0 +1,22 @@
+html,body{
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+}
+h1,h2{
+	text-align: center;
+}
+i{
+	font-size: 5em;
+}
+#North{
+
+}
+#South{
+
+}
+#West{
+}
+#East{
+	margin-left: 170px;
+}
