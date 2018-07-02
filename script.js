@@ -3,26 +3,26 @@ var East = document.querySelector("#East");
 var North = document.querySelector("#North");
 var South = document.querySelector("#South");
 
-North.addEventListener("click",northfunc)
-function northfunc(){
+const northfunc = () =>{
 	console.log("North");
 	window.game("North");
 }
-South.addEventListener("click",southfunc)
-function southfunc(){
+North.addEventListener("click",northfunc)
+const southfunc = () =>{
 	console.log("South");
 	window.game("South");
 }
-West.addEventListener("click",westfunc)
-function westfunc(){
+South.addEventListener("click",southfunc)
+const westfunc = () =>{
 	console.log("West");
 	window.game("West");
 }
-East.addEventListener("click",eastfunc)
-function eastfunc(){
+West.addEventListener("click",westfunc)
+const eastfunc = () =>{
 	console.log("East");
 	window.game("East");
 }
+East.addEventListener("click",eastfunc)
 
 function game(direction){
 	var WhtHappens;
